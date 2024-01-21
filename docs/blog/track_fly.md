@@ -69,7 +69,7 @@ git clone https://github.com/szchixy/track_fly.git
 
 最终，我们使用前面提到的两个 Mapbox API，在 /js/animation.js 中分别将 track.json, target.json, camera.json 依次导入并渲染即可在浏览器中观看最终效果（由于作者太懒，具体 API 调用的代码讲解过程就略过吧）：
 
-[轨迹飞行动画 🚲](/track_fly/index.html){target="_blank"}
+[轨迹飞行动画 🚲](https://szchixy.github.io/track_fly/index.html){target="_blank"}
 
 ---
 

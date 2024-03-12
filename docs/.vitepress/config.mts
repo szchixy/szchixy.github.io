@@ -32,10 +32,10 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/szchixy/szchixy.github.io' },
     ],
 
-    footer: {
-      message: 'Powered by VitePress',
-      copyright: 'Copyright © 2023 szchixy',
-    },
+    // footer: {
+    //   message: 'Powered by VitePress',
+    //   copyright: 'Copyright © 2023 szchixy',
+    // },
 
     lastUpdated: { text: '最后更新于', formatOptions: { dateStyle: 'short', timeStyle: 'medium', } },
     outline: { label: '页面导航' },

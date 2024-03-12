@@ -1,3 +1,8 @@
+---
+sidebar: false
+aside: left
+---
+
 # 轨迹飞行动画
 
 ## 1. 前言

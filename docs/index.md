@@ -1,15 +1,18 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-navbar: false
+# navbar: false
 
 hero:
-  name: 池道
-  tagline: 听小池细细道来
+  name: Geogi Chi
+  tagline: code for a time, hack for a life
+  image:
+    src: /img/Geogi-Chi.png
+    alt: Geogi Chi
 
 features:
   - icon: 🚲
-    title: 轨迹飞行动画
-    details: 一个使用 Mapbox API 控制相机位姿与视角的轨迹飞行动画
-    link: /blog/track_fly
+    title: track fly animation
+    details: A trajectory flight animation that uses the Mapbox API to control camera position
+    link: https://szchixy.github.io/track_fly
 ---

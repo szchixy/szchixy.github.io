@@ -1,1 +1,1 @@
-# 你好，我是小池，欢迎来到我的主页 👋
+# Hi, I'm Geogi Chi, glad to see you 👋

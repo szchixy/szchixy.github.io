@@ -1,6 +1,6 @@
 ---
 sidebar: false
-aside: left
+aside: false
 ---
 
 # 轨迹飞行动画

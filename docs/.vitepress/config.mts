@@ -1,10 +1,9 @@
-import { defineConfig } from 'vitepress'
+import {defineConfig} from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: '池道',
-  description: 'Homepage of szchixy',
-  head: [['link', { rel: 'icon', href: '/img/favicon.ico' }]],
+  title: 'Geogi Chi',
+  description: 'Homepage of Geogi CHi',
+  head: [['link', {rel: 'icon', href: '/favicon.ico'}]],
   cleanUrls: true,
   lastUpdated: true,
   markdown: {
@@ -12,39 +11,32 @@ export default defineConfig({
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    // nav: [],
+    nav: [
+      {text: 'Blog', link: '/blog/track_fly'},
+    ],
 
     sidebar: {
       '/blog/': {
-        base: '/blog', items: [
+        base: '/blog',
+        items: [
           {
-            text: '博客',
+            text: 'blog',
             collapsed: false,
-            items: [
-              { text: '轨迹飞行动画', link: '/track_fly' },
-            ]
+            items: [{text: 'track fly animation', link: '/track_fly'}],
           },
-        ]
+        ],
       },
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/szchixy/szchixy.github.io' },
+      {icon: 'github', link: 'https://github.com/szchixy/szchixy.github.io'},
     ],
 
     // footer: {
     //   message: 'Powered by VitePress',
-    //   copyright: 'Copyright © 2023 szchixy',
+    //   copyright: 'Copyright © 2024 Geogi Chi',
     // },
 
-    lastUpdated: { text: '最后更新于', formatOptions: { dateStyle: 'short', timeStyle: 'medium', } },
-    outline: { label: '页面导航' },
-    docFooter: { prev: '上一页', next: '下一页', },
-    darkModeSwitchLabel: '主题',
-    darkModeSwitchTitle: '切换到深色模式',
-    lightModeSwitchTitle: '切换到浅色模式',
-    returnToTopLabel: '回到顶部',
-    sidebarMenuLabel: '菜单',
     externalLinkIcon: true,
-  }
+  },
 })

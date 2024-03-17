@@ -1,8 +1,3 @@
----
-sidebar: false
-aside: false
----
-
 # 轨迹飞行动画
 
 ## 1. 前言
@@ -78,6 +73,4 @@ git clone https://github.com/szchixy/track_fly.git
 
 ---
 
-恭喜你看到了这里，跟着教程动手找一条轨迹试一下吧?
-
-(°▽°)/
+动手找一条轨迹试一下吧? (°▽°)/

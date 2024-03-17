@@ -1,7 +1,5 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
-# navbar: false
 
 hero:
   name: Geogi Chi
@@ -14,5 +12,9 @@ features:
   - icon: 🚲
     title: track fly animation
     details: A trajectory flight animation that uses the Mapbox API to control camera position
-    link: https://szchixy.github.io/track_fly
+    link: /blog/track-fly-animation
+  - icon: 📖
+    title: deal with notimess
+    details: some thinkings about notifications and messages that we receive initiatively or passively
+    link: /blog/deal-with-notimess
 ---

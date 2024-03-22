@@ -1,6 +1,7 @@
 pnpm docs:build
 
 cd docs/.vitepress/dist
+touch .nojekyll
 
 git init -b gh-pages
 git remote add origin https://github.com/szchixy/szchixy.github.io.git

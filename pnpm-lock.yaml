@@ -13,7 +13,7 @@ importers:
         version: 1.2.3(@algolia/client-search@4.23.3)(markdown-it-mathjax3@4.3.2)(postcss@8.4.38)(search-insights@2.14.0)
     devDependencies:
       markdown-it-mathjax3:
-        specifier: ^4.3.2
+        specifier: latest
         version: 4.3.2
 
 packages:
